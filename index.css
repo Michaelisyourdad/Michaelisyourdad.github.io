@@ -1,0 +1,61 @@
+* {
+padding: 0;
+margin: 0;
+font-family:'Permanent Marker';
+}
+
+
+
+
+
+
+
+
+.flex-row {
+   display: flex;
+   flex-direction: row; 
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    background-color:rgb(41, 0, 66);
+    color:rgb(238, 0, 255);
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    font-size: 48px
+
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+.w-full {
+    width: 100%;
+}
+.h {
+    height: 100%;
+}
+.w-dvw {
+    min-height: 100dvw;
+}
+.h-dvh {
+    min-height: 100dvh;
+}
+
+.nav {
+    background-color: rgb(48, 0, 0);
+    width: 10%;
+    color: rgb(255, 0, 0);
+}
+.nav a:hover {
+    background-color: rgb(124, 0, 0);
+}
+.nav a:hover::after {
+    content: '/̴͚̫͉̞̉͑̄̇͐͛͝S';
+}
+
